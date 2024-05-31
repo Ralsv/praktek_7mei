@@ -8,8 +8,13 @@ use App\Models\Student;
 class PraktekController extends Controller
 {
     public function index (){
+
         $coba2 = "jshsusj";
         $kakang = "bambam";
+
+        $coba2 = "brot brot";
+        $coba = "Coba";
+
         $student = Student::all();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
             return view('student', compact (['student']));
