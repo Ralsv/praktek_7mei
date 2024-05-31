@@ -8,7 +8,7 @@ use App\Models\Student;
 class PraktekController extends Controller
 {
     public function index (){
-        $coba = "Coba";
+        $kakang = "bambam";
         $student = Student::all();
         
             return view('student', compact (['student']));
