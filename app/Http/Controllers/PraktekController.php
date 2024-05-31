@@ -8,6 +8,7 @@ use App\Models\Student;
 class PraktekController extends Controller
 {
     public function index (){
+        $coba2 = "brot brot";
         $coba = "Coba";
         $student = Student::all();
         
