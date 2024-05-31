@@ -10,7 +10,7 @@ class PraktekController extends Controller
     public function index (){
         $kakang = "bambam";
         $student = Student::all();
-        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
             return view('student', compact (['student']));
     }
     public function create(){
